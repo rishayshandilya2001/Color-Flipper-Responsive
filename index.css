@@ -1,0 +1,72 @@
+.mainbox{
+    width: 100vw;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+body
+{
+    background-color: #ea6c6c;
+}
+
+
+.box{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.box1
+{
+    font-size: 1.8rem;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnbox
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btnn
+{
+    width: 15%;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    border: 3px solid white;
+    color: #ea6c6c;
+    background-color: white;
+}
+
+.top
+{
+    color: #ea6c6c;
+}
+
+.sec
+{
+    color: #ea6c6c;
+    background-color: white;
+
+}
+
+.sh
+{
+    color: #ea6c6c;
+}
+
+
+@media(max-width:700px)
+{
+    .btnn{
+        width: 30%;
+    }
+}
